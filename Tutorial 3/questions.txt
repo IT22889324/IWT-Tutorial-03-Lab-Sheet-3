@@ -1,0 +1,68 @@
+1. Create a html file and save it as “test_css1.html”. Then include the following HTML code to the
+file.
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Testing CSS</title>
+    </head>
+    <body>
+        <h2>This page is to practice CSS</h2>
+
+        <p> Usually, CSS is written in a separate CSS file or in a style tag inside of
+        the head tag, but there is a third place which is also valid. The third place
+        you can write CSS is inside of an HTML tag, using the style attribute</p>
+
+        <p>Internal or embedded CSS requires you to add style tag in the head
+        section of your HTML document. This CSS style is an effective method of
+        styling a single page</p>
+
+        <p>External CSS contains separate CSS file which contains only style
+        property with the help of tag attributes. CSS property written in a separate
+        file with css extension and should be linked to the HTML document using
+        link tag</p>
+    </body>
+</html>
+
+2. Do the following changes to the first paragraph using Inline CSS.
+
+    a. Font color into Red
+    b. Paragraph background color into Pink
+    c. Font size into 32 px
+
+3. Do the following changes to the second paragraph using Internal CSS. Create an Id called
+“para2” and define the following styles under the created Id.
+
+    a. Font color into Green
+    b. Paragraph background color into Yellow
+    c. Font size into 28 px
+    d. Align the text to center
+
+4. Do the following changes to the third paragraph using Internal CSS. Create a class called “para3”
+and define the following styles under the created class.
+
+    a. Font color into Blue
+    b. Paragraph background color into Orange
+    c. Font family to “Tahoma”
+    d. Align the text to right
+
+5. Create a separate file and save it as “myStyles.css”. Link this css file to the previously created html
+file (test_css1.html).
+
+6. Do the following changes from the css file.
+
+    a. Add a background image to the webpage.
+    b. Change the font family of the heading to “Arial”
+    c. Change the font color of the heading to Brown
+    d. Change the font size of the heading to 36 px
+    e. Add a 2px, solid, blue border around each paragraph.
+    f. Set the top and bottom margins to 25px and right and left margins are 50px for each
+    paragraph.
+    g. Set the top padding is 25px, right and left paddings are 50px, and bottom padding is 75px
+    for each paragraph.
+
+7. What are the advantages of using External Style Sheets?
+
+    1. one change to the style sheet will change all linked pages
+    2. you can create classes of styles that can then be used on many different HTML elements
+    3. consistent look and feel across multiple web pages
+    4. improved load times because the css file is downloaded once and applied to each relevant page as needed
